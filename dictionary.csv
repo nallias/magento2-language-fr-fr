@@ -1,8 +1,3 @@
-"Minimum length of this field must be equal or greater than %1 symbols.","Au moins %1 caractères."
-" Leading and trailing spaces will be ignored."," Espaces ignorés au début et à la fin."
-"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Au moins %1 caractères, espaces ignorés au début et à la fin."
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Au moins %l caractères dans votre mot de passe. Incluant minuscule, capitale, chiffre, caractères spéciaux."
-"Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.","Au moins 8 caractères, espaces ignorés au début et à la fin."
 """%1"" cannot contain more than %2 lines.","""%1"" ne peut pas contenir plus de %2 lignes."
 """%1"" contains non-alphabetic characters.","""%1"" contient des caractères non alphabétiques."
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" contient des caractères non alphabétiques ou non numériques."
@@ -39,7 +34,7 @@
 "# of Items (and above)","Nombre d’articles (et au-delà)"
 "# of Items vs. Destination","Nombre d’articles par destination"
 "${ $.visible } out of ${ $.total } visible","${ $.visible } sur ${ $.total } visible(s)"
-%1,%1
+"%1","%1"
 "%1 %2","%1 %2"
 "%1 (Default)","%1 (Défaut)"
 "%1 - %2","%1 - %2"
@@ -131,11 +126,11 @@
 "%name% '%value%' is too long. It must has length %min% symbols.","%name% '%value%' est trop long. Il doit avoir maximum %min% symboles."
 "%name% '%value%' is too short. It must has length %min% symbols.","%name% '%value%' est trop court. Il doit avoir minimum %min% symboles."
 "%name,","%name,"
-%s,%s
+"%s","%s"
 "%s - %s","%s - %s"
 "%sender_name wants to share this product with you:","%sender_name voudrait partager ce produit avec vous :"
 "&copy; 2015 Magento Demo Store. All Rights Reserved.","© 2015 Magento Demo Store. Tous droits réservés."
-&nbsp;,&nbsp;
+"&nbsp;","&nbsp;"
 "'%1' file extension is not supported","'%1' extension de fichier non supportée"
 "'%1' is not a directory.","'%1' n’est pas un répertoire."
 "'%1' is not readable file.","'%1' n’est pas un fichier accessible en lecture."
@@ -185,7 +180,7 @@
 "2 columns with left bar","2 colonnes avec colonne de gauche"
 "2 columns with right bar","2 colonnes avec colonne de droite"
 "2-pixel perimeter around the header space.","Périmètre de 2 pixels autour de l’espace d’en-tête."
-2YTD,"Depuis le début de l’année dernière"
+"2YTD","Depuis le début de l’année dernière"
 "2nd Day Air","2nd Day Air"
 "2nd Day Air AM","2nd Day Air AM"
 "2nd Day Air AM Letter","2nd Day Air AM Letter"
@@ -203,7 +198,7 @@
 "12 Hours","12 heures"
 "12h AM/PM","12h AM/PM"
 "24 Hours","24 heures"
-24h,24h
+"24h","24h"
 "255 by default","255 par défaut"
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 par défaut, si non renseigné. Pour actualiser, purgez le cache de sortie des blocs HTML."
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 par défaut. Si non défini. Pour rafraîchir, vider le cache des blocs HTML."
@@ -240,13 +235,13 @@
 "ACH Deposit (Reversal)","Dépôt d’ACH (inversion)"
 "ACH Funding for Funds Recovery from Account Balance","Placement d’ACH pour le rétablissement de fonds de l’équilibre de compte"
 "ACH Withdrawal","Retrait d’ACH"
-ALL,TOUS
+"ALL","TOUS"
 "ALL GROUPS","TOUS LES GROUPES"
-AM,AM
-ANY,TOUT
+"AM","AM"
+"ANY","TOUT"
 "A PDF object is not specified.","L’objet PDF n’est pas spécifié."
 "A PDF page object is not specified.","La page PDF n’est pas spécifiée."
-API,API
+"API","API"
 "API Authentication Methods","Modes d’authentification de l’API"
 "API Certificate","Certificat d’API"
 "API Login ID","ID de connexion à l’API"
@@ -295,7 +290,7 @@ API,API
 "Access denied.","Accès refusé."
 "Access list","Liste d’Accès"
 "Access token has been revoked","Authentification d’accès révoquée"
-Account,Compte
+"Account","Compte"
 "Account-to-Account Payment, initiated by PayPal","Paiement de compte à compte, initié par PayPal"
 "Account Activity","Activité du compte"
 "Account Created:","Compte créé :"
@@ -315,15 +310,15 @@ Account,Compte
 "Account already active","Compte déjà actif"
 "Account confirmation is required. Please, check your e-mail for confirmation link. To resend confirmation email please <a href=""%1"">click here</a>.","Confirmation de compte requise. Veuillez vérifier vos emails pour obtenir le lien de confirmation. Pour recevoir à nouveau la confirmation, <a href=""%1"">cliquez ici</a>."
 "Account confirmation is required. Please, check your email for the confirmation link. To resend the confirmation email please <a href=""%1"">click here</a>.","Confirmation de compte requise. Veuillez vérifier vos emails pour obtenir le lien de confirmation. Pour recevoir à nouveau la confirmation, <a href=""%1"">cliquez ici</a>."
-Acknowledge,"Accusé de réception"
+"Acknowledge","Accusé de réception"
 "A class with the same name already exists for ClassType %1.","Une classe avec le même nom existe déjà pour le ClassType %1."
 "A consumer having the specified key does not exist","La clé d’API utilise une clé qui n’existe pas"
 "A consumer with ID %1 does not exist","L’authentification avec ID %1 n’existe pas"
 "A consumer with the ID %1 does not exist","L’API avec l’ID %1 n’existe pas"
-Action,Action
-Actions,Actions
-Activate,Activer
-Active,Actif
+"Action","Action"
+"Actions","Actions"
+"Activate","Activer"
+"Active","Actif"
 "Active From","Actif depuis"
 "Active To","Actif jusque"
 "Active filters:","Filtres actifs :"
@@ -333,8 +328,8 @@ Active,Actif
 "A customer with the same email already exists in an associated website.","Un client avec le même email existe déjà dans un site web associé."
 "Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource","Adapter doit être une instance de \Magento\ImportExport\Model\Import\AbstractSource"
 "Adapter object must be an instance of %1","L’objet de l’Adapter doit être une instance de %1"
-Add,Ajouter
-Add/Update,"Ajouter/Mettre à jour"
+"Add","Ajouter"
+"Add/Update","Ajouter/Mettre à jour"
 "Add/Update Complex Data","Ajouter/Mettre à jour des données complexes"
 "Add All to Cart","Tout ajouter au panier"
 "Add Attribute","Ajouter un attribut"
@@ -438,11 +433,11 @@ Add/Update,"Ajouter/Mettre à jour"
 "Add configurable attributes to the existing Attribute Set","Ajouter un attribut configurable au groupe d’attribut existant"
 "Add configurable attributes to the new Attribute Set based on current","Ajouter des attributs configurables au nouveau jeu d’attributs sur le jeu d’attributs courant"
 "Add configurable attributes to the new set based on current","Ajouter des attributs configurables au jeu d’attributs"
-Added,Ajouté
+"Added","Ajouté"
 "Add gift options","Ajouter des options cadeau"
 "Add gift options for Individual Items","Ajouter des options cadeau pour les articles individuels"
 "Add gift options for the Entire Order","Ajouter des options cadeau pour toute la commande"
-Adding...,"Ajout en cours..."
+"Adding...","Ajout en cours..."
 "Additional Address Entries","Saisies d’adresses supplémentaires"
 "Additional Cache Management","Gestion additionnelle du cache"
 "Additional Information","Informations complémentaires"
@@ -452,14 +447,14 @@ Adding...,"Ajout en cours..."
 "Add links to your product files here.","Ajouter des liens aux fichiers de votre produit ici."
 "Add new card","Ajouter nouvelle carte"
 "Add product preview files here.","Ajouter un aperçu du produit ici."
-Address,Adresse
+"Address","Adresse"
 "Address %1 <span>of %2</span>","Adresse %1 <span>sur %2</span>"
 "Address %1 of %2","Adresse %1 sur %2"
 "Address Book","Carnet d’adresses"
 "Address Information","Informations d’adresse"
 "Address Templates","Gabarit d’adresse"
 "Address Verification System Response","Adresse du système de vérification de réponse"
-Addresses,Adresses
+"Addresses","Adresses"
 "Address must have at least one field fill in.","Le premier champ adresse doit être rempli."
 "Add this attribute to the list of column options in the product grid.","Ajouter cet attribut à la liste des options de colonne dans la grille des produits."
 "Add this attribute to the list of filter options in the product grid.","Ajouter cet attribut à la liste des options filtrables dans la grille des produits."
@@ -474,7 +469,7 @@ Addresses,Adresses
 "Adjust final price to this percentage","Pourcentage du prix original"
 "Adjustment Fee","Frais de dossier"
 "Adjustment Refund","Remboursement des frais de dossier"
-Admin,Admin
+"Admin","Admin"
 "Admin 1column","Admin 1 colonne"
 "Admin Account Sharing","Partage de compte administrateur"
 "Admin Accounts Locks","Comptes admin bloqués"
@@ -483,12 +478,12 @@ Admin,Admin
 "Admin User Emails","Emails de l’Administrateur"
 "Admin empty","Admin vide"
 "Admin is a required field in the each row","Le champ Admin est obligatoire pour chaque ligne"
-Administrator,Administrateur
+"Administrator","Administrateur"
 "Admin session lifetime must be greater than or equal to 60 seconds","La durée de vie de la session admin doit être supérieure ou égale à 60 secondes"
 "Admin session lifetime must be less than or equal to 31536000 seconds (one year)","La durée de vie de la session admin doit être inférieure ou égale à 31536000 secondes (1 an)"
-Adult,Adulte
+"Adult","Adulte"
 "Adult Signature Required","La signature d’un adulte est requise"
-Advanced,Avancé
+"Advanced","Avancé"
 "Advanced Admin Section","Section admin avancée"
 "Advanced Attribute Properties","Propriétés avancée des attributs"
 "Advanced Braintree Settings","Paramètres avancés Braintree"
@@ -513,7 +508,7 @@ Advanced,Avancé
 "Alert Email Sender","Expéditeur de l’email d’alerte"
 "Alert subscription has been saved.","L’inscription à l’alerte a été sauvegardée."
 "A letter with further instructions will be sent to your email.","Un email avec d’autres instructions vous sera envoyé."
-All,Tous
+"All","Tous"
 "All ","Tous "
 "All Allowed Countries","Tous les pays autorisés"
 "All Cache","Tous les caches"
@@ -534,7 +529,7 @@ All,Tous
 "All countries","Tous les pays"
 "All in column","Tout dans la colonne"
 "All other open sessions for this account were terminated.","Toutes les autres sessions ouvertes pour ce compte sont terminées."
-Allow,Autoriser
+"Allow","Autoriser"
 "Allow Alert When Product Comes Back in Stock","Autoriser l’alerte de disponibilité de produit"
 "Allow Alert When Product Price Changes","Autoriser l’alerte de changement de prix"
 "Allow All Products per Page","Autoriser tous les produits par page"
@@ -590,8 +585,8 @@ Allow,Autoriser
 "All the address information matched","Vérification de toutes les informations de l’adresse"
 "All valid rates have been saved.","Tous les taux valides ont été sauvegardés."
 "A login and a password are required.","Un identifiant et un mot de passe sont nécessaires."
-Alphabetical,Alphabétique
-Alphanumeric,Alphanumérique
+"Alphabetical","Alphabétique"
+"Alphanumeric","Alphanumérique"
 "Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.","Les caractères alphanumériques, les tirets et les caractères de soulignement sont recommandés pour les noms de fichiers. Les caractères impropres seront remplacés par des caractères de soulignement '_'."
 "Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with \'_\'.","Les caractères alphanumériques, les tirets et les caractères de soulignement sont recommandés pour les noms de fichiers. Les caractères impropres seront remplacés par des caractères de soulignement \'_\'."
 "Already registered?","Vous avez déjà un compte ?"
@@ -601,11 +596,11 @@ Alphanumeric,Alphanumérique
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Texte alternatif pour le lien « précédent » dans le menu de pagination. Si vous le laissez vide, c'est la flèche par défaut qui sera utilisée."
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Texte alternatif pour les liens de pages suivantes utilisé dans la pagination. Si elle est vide, l’image par défaut est utilisée."
 "Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Texte alternatif pour les liens de pages précédentes utilisé dans la pagination. Si elle est vide, l’image par défaut est utilisée."
-Always,Toujours
+"Always","Toujours"
 "Always (during development)","Toujours (pendant le développement)"
 "Always optional.","Toujours optionnel."
 "A match of the Shipping Address City, State, and Postal Code failed.","Une correspondance pour l’expédition ville, état, code postal a échouée."
-Amount,Montant
+"Amount","Montant"
 "Amount: %1.","Montant : %1."
 "Amount cannot be negative.","Le montant ne peut être négatif."
 "Amount is an invalid format.","Montant dans un format invalide."
@@ -613,7 +608,7 @@ Amount,Montant
 "Amount is too large.","Montant trop important."
 "Amount must be greater than zero","Le montant doit être supérieur à zéro"
 "Amount of %1 approved by payment gateway. Transaction ID: ""%2"".","Montant de %1 approuvé par la passerelle de paiement. ID de transaction : ""%2""."
-Amounts,Montants
+"Amounts","Montants"
 "A name is required.","Un nom est requis."
 "An amount of %1 will be captured after being approved at the payment gateway.","Un montant de %1 sera capturé après l’approbation de la passerelle de paiement."
 "An array expected: %1","Tableau prévu: %1"
@@ -627,7 +622,7 @@ Amounts,Montants
 "An attribute with the same code (%1) already exists.","Un attribut avec le même code (%1) existe déjà."
 "An attribute with this code already exists.","Un attribut avec ce code existe déjà."
 "An authentication error occurred.","Une erreur d’authentification est survenue."
-Anchor,Ancre
+"Anchor","Ancre"
 "Anchor Categories","Catégorie ancrée"
 "Anchor Custom Text","Présenter un texte personnalisé"
 "Anchor Custom Title","Présenter un titre personnalisé"
@@ -686,7 +681,7 @@ Anchor,Ancre
 "Another non-translated value for Magento_Catalog","Une autre valeur non traduite pour Magento_Catalog"
 "An unspecified error occurred. Please contact us for assistance.","Une erreur est survenue. Veuillez nous contacter pour obtenir de l’aide."
 "An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.","Un produit en vente additionnelle est une offre alternative plus chère ou de qualité supérieure par rapport au produit que le client consulte."
-Any,Tout
+"Any","Tout"
 "Any data created since the backup was made will be lost including admin users, customers and orders.","Toutes les données créées depuis que la sauvegarde a été réalisée seront perdues (dont les comptes administrateurs, les clients et les commandes)."
 "Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/","Chacun de ces champs peut utiliser une URL se terminant par '/' (slash) ex : http://example.com/magento/"
 "Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. https://example.com/magento/","Chacun de ces champs peut utiliser une URL se terminant par '/' (slash) ex : https://example.com/magento/"
@@ -697,13 +692,13 @@ Any,Tout
 "A positive or negative non-decimal number please","Uniquement des nombres entiers positifs ou négatifs autorisés"
 "Append Comments","Ajouter les commentaires"
 "Apple pay card","Carte de paiement Apple"
-Applied,Appliqué
+"Applied","Appliqué"
 "Applied Coupon","Coupons utilisés"
 "Applied Theme","Thème appliqué"
 "Applies for ""Like"" search type only","Appliquez pour les recherches de type ""Like"" seulement"
 "Applies to Any of the Specified Order Statuses","S'applique à tous les statuts de commande spécifiés"
 "Applies to Any of the Specified Order Statuses except canceled orders","Applique à tous les statuts de commande spécifiés hormis les commandes annulées"
-Apply,Appliquer
+"Apply","Appliquer"
 "Apply Coupon","Utiliser un bon de réduction"
 "Apply Coupon Code","Appliquer un bon de réduction"
 "Apply Customer Tax","Appliquer la taxe client"
@@ -734,7 +729,7 @@ Apply,Appliquer
 "Apply unique images by attribute to each SKU","Utiliser des images uniques par attribut pour chaque SKU"
 "Apply unique prices by attribute to each SKU","Appliquer un prix unique par attribut pour chaque SKU"
 "Apply unique quantity by attribute to each SKU","Appliquer une quantité unique par attribut pour chaque SKU"
-Approved,Approuvé
+"Approved","Approuvé"
 "Approved the payment online.","Approuver le paiement en ligne."
 "A problem was encountered trying to change password.","Problème rencontré lors du changement de mot de passe."
 "A product type is not defined for the indexer.","Aucun type de produit n’est défini pour le gestionnaire des index."
@@ -818,11 +813,11 @@ Approved,Approuvé
 "Ask Customer","Demander au client"
 "As low as","À partir de"
 "As low as:","À partir de :"
-Assign,Assigner
+"Assign","Assigner"
 "Assign Order Status to State","Assigner un statut de commande à un état"
 "Assign Status to State","Assigner un statut à un état"
 "Assign a Customer Group","Assigner un groupe de clients"
-Assigned,Affecté
+"Assigned","Affecté"
 "Assigned Options","Options attribuées"
 "Assignment Information","Information d’affectation"
 "Assign theme to your live store-view:","Assigner un thème à la vue magasin :"
@@ -851,9 +846,9 @@ Assigned,Affecté
 "Attempted Authentication, Bad Result","Tentative d’authentification. Mauvais résultat"
 "Attempted Authentication, Good Result","Tentative d’authentification. Bon résultat"
 "Attempt to add an invalid object","Tentative d’ajout d’un objet invalide"
-Attention,Attention
+"Attention","Attention"
 "Attention: Captcha is case sensitive.","Attention : le CAPTCHA est sensible à la casse."
-Attribute,Attribut
+"Attribute","Attribut"
 "Attribute ""%1"" is required.","L’attribut ""%1"" est requis."
 "Attribute ""%1"" not found in attribute set %2.","L’attribut ""%1"" ne fait pas partie du jeu d’attribut %2."
 "Attribute ""%attribute_code"" has invalid value. %details","La valeur de l’attribut ""%attribute_code"" est invalide. %details"
@@ -869,7 +864,7 @@ Attribute,Attribut
 "Attribute Label","Libellé de l’attribut"
 "Attribute Properties","Propriétés de l’attribut"
 "Attribute Set","Jeu d’attributs"
-AttributeSetText,AttributeSetText
+"AttributeSetText","AttributeSetText"
 "Attribute Set already exists.","Jeu d’attribut déjà existant."
 "AttributeSet does not exist.","Le jeux d’attributs n’existe pas."
 "Attribute Sets","Jeux d’attributs"
@@ -884,7 +879,7 @@ AttributeSetText,AttributeSetText
 "Attribute group does not belong to provided attribute set","Le groupe d’attributs ne fait pas partie du jeu d’attributs"
 "Attribute group that contains system attributes can not be deleted","Un groupe d’attributs contenant des attributs système ne peut être supprimé"
 "Attribute object is undefined","L’objet attribut est indéfini"
-Attributes,Attributs
+"Attributes","Attributs"
 "Attribute set comprising all selected configurable attributes need to be in order to save generated variations.","Le jeux d’attributs comprenant tous les attributs configurables doivent être correctement configurés pour générer les variantes."
 "Attribute set name is empty.","Nom du groupe d’attribut vide."
 "Attribute set not found: %1","Attribut introuvable : %1"
@@ -901,42 +896,42 @@ Attributes,Attributs
 "Authentication header format is invalid.","Le format d’en-tête d’authentification est invalide."
 "Authentication header is absent.","L’en-tête d’authentification est manquant."
 "Authentication storage is incorrect.","Le stockage des authentifications est incorrect."
-Author,Auteur
-Authorization,Autorisation
+"Author","Auteur"
+"Authorization","Autorisation"
 "Authorization Honor Period (days)","Période d’autorisation d’honneur (jours)"
 "Authorization expired","Autorisation expirée"
-Authorize,Autoriser
+"Authorize","Autoriser"
 "Authorize.Net Transaction ID %1","Authorize.Net transaction ID %1"
 "Authorize.Net Transaction ID %1.","Authorize.Net transaction ID %1."
-Authorize.net,Authorize.net
+"Authorize.net","Authorize.net"
 "Authorize.net Direct Post","Soumission directe authorize.net"
 "Authorize Only","Autorisation Seulement"
 "Authorize and Capture","Autoriser et collecter"
-Authorized,Autorisé
+"Authorized","Autorisé"
 "Authorized amount of %1","Montant de %1 autorisé"
-Authorizing,Autorisation
-Auto,Auto
+"Authorizing","Autorisation"
+"Auto","Auto"
 "Auto-generate a Key","Générer automatiquement une clé"
 "Auto-redirect to Base URL","Rediriger automatiquement vers l’URL de base"
 "Auto Generated Specific Coupon Codes","Codes de bons de réduction spécifiques générés automatiquement"
-AutoSweep,"Champ automatique"
-Autogenerate,"Générer automatiquement"
+"AutoSweep","Champ automatique"
+"Autogenerate","Générer automatiquement"
 "Automatic (equalize price ranges)","Automatique (égalise les tranches de prix)"
 "Automatic (equalize product counts)","Automatique (égalise le nombre de produits)"
-Automatically,Automatiquement
+"Automatically","Automatiquement"
 "Automatically Invoice All Items","Facturer automatiquement tous les articles"
 "Automatically Return Credit Memo Item to Stock","Remettre automatiquement en stock un article faisant l’objet d’un avoir"
 "Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.","Fusionne automatiquement les synonymes des groupes qui partagent la même portée. Si vous cochez cette case et que vous ajoutez un ou plusieurs mêmes termes aux différents groupes de synonymes de la même portée, fusionne automatiquement tous les synonymes à un seul groupe. Si ce n’est pas ce que vous souhaitez, décochez la case et une erreur apparaîtra si vous essayez d’ajouter les mêmes synonymes."
 "Auto restart video","Redémarrage automatique de la vidéo"
-Autosettings,"Réglages automatiques"
+"Autosettings","Réglages automatiques"
 "Autostart base video","Démarrage automatique de la vidéo de base"
-Availability,Disponibilité
-Availability:,"Disponibilité :"
+"Availability","Disponibilité"
+"Availability:","Disponibilité :"
 "Available APIs","APIs Disponibles"
 "Available Balance","Solde Disponible"
 "Available Product Listing Sort By","Trier la liste des produit par"
 "A value is required for live mode. Refer to your CardinalCommerce agreement.","Une valeur est exigée pour le mode en direct. Référez-vous à votre accord cardinal de commerce."
-Average,Moyen
+"Average","Moyen"
 "Average (Approved)","Moyenne (approuvé)"
 "Average Customer Rating","Note moyenne des clients"
 "Average Customer Rating:","Note moyenne des clients :"
@@ -946,12 +941,12 @@ Average,Moyen
 "Avs Postal Code Response Code","Réponse AVS code postal"
 "Avs Street Address Response Code","Réponse AVS adresse"
 "A wrong PayPal Express Checkout Token is specified.","Une mauvaise clé PayPal Express Checkout est spécifié."
-Back,Retour
+"Back","Retour"
 "Backend host","Hôte du backend"
 "Backend model is not specified for %1","Modèle backend non spécifié pour %1"
 "Backend port","Port backend"
-Backordered,"En attente de stock"
-Backorders,Reliquats
+"Backordered","En attente de stock"
+"Backorders","Reliquats"
 "Back to Billing Agreements","Retour aux ententes de facturation"
 "Back to Billing Information","Retour aux informations de facturation"
 "Back to Login","Retour à l’identification"
@@ -964,12 +959,12 @@ Backorders,Reliquats
 "Back to Shopping Cart","Retour au panier"
 "Back to Sign In","Retourner à la page de connexion"
 "Back to Sign in","Retourner à la page de connexion"
-Backup,Sauvegarde
+"Backup","Sauvegarde"
 "Backup Name","Nom de la sauvegarde"
 "Backup Options","Options de sauvegarde"
 "Backup Type","Type de sauvegarde"
 "Backup options","Options de sauvegarde"
-Backups,Sauvegardes
+"Backups","Sauvegardes"
 "Backups directory is not writeable","Le répertoire de sauvegarde ne peut être écrit"
 "Bad controller interface for showing product","Mauvaise interface de contrôleur pour montrer le produit"
 "Bad request.","Non trouvé."
@@ -977,7 +972,7 @@ Backups,Sauvegardes
 "Bad value was supplied.","Mauvaise valeur fournie."
 "Balance Manager Account Bonus","Compte de gestion de la balance bonus"
 "Bank Transfer Payment","Paiement par virement bancaire"
-Base,Base
+"Base","Base"
 "Base Currency","Devise de base"
 "Base Image","Image de base"
 "Base Link URL","Lien vers l’URL de base"
@@ -1009,7 +1004,7 @@ Base,Base
 "Basic Settings - PayPal Website Payments Pro","Réglages de base - PayPal website Payments Pro"
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Réglages de base - PayPal website Payments Pro Solution Hébergé"
 "Basic Settings - PayPal Website Payments Standard","Réglages de base - PayPal website Payments Standard"
-Bcc,Bcc
+"Bcc","Bcc"
 "Before Discount","Avant remise"
 "Before Order Confirmation","Avant la confirmation de commande"
 "Before modifying the store view code please make sure it is not used in index.php.","Avant de modifier le code de vue magasin, assurez-vous qu’il n’est pas utilisé dans le fichier index.php."
@@ -1020,15 +1015,15 @@ Bcc,Bcc
 "Begin export of %1","Commencez l’exportation de %1"
 "Begin import of ""%1"" with ""%2"" behavior","Commencez l’importation de ""%1"" avec ""%2"" en comportement"
 "Best Sellers Report","Rapport des meilleures ventes"
-Bestseller,"Meilleure vente"
-Bestsellers,"Meilleures ventes"
+"Bestseller","Meilleure vente"
+"Bestsellers","Meilleures ventes"
 "Bestsellers Report","Rapport des meilleures ventes"
 "Be sure to Enable Advanced Fraud Protection in Your Braintree Account in Settings/Processing Section","Assurez-vous d’activer la protection avancée de fraude dans votre compte Braintree dans la section ""Settings/Processing"""
 "Be sure your store is in maintenance mode during backup.","Soyez sûr que votre boutique est en mode de maintenance pendant la sauvegarde."
 "Be the first to review this product","Soyez le premier à commenter ce produit"
 "Big Image","Grande Image"
 "Bill-to Name","Nom de facturation"
-Billing,Facturation
+"Billing","Facturation"
 "Billing Address","Adresse de facturation"
 "Billing Address:","Adresse de facturation :"
 "Billing Address: ","Adresse de facturation : "
@@ -1050,18 +1045,18 @@ Billing,Facturation
 "Billing day of month cannot be updated","Le jour de facturation ne peut être mis à jour"
 "Billing day of month is invalid","Le jour de facturation est invalide"
 "Billing day of month must be numeric","Le jour de facturation doit être un nombre"
-Block,Bloc
+"Block","Bloc"
 "Block %1 throws exception and cannot be rendered.","Le bloc %1 a émit une exception et ne peut pas être rendu."
 "Block Information","Information du bloc"
 "Block Title","Titre du bloc"
-Blocks,Blocs
+"Blocks","Blocs"
 "Blocks HTML output","Sortie de blocs HTML"
 "Bonus for first ACH Use","Bonus pour la première utilisation ACH"
 "Bookmark with id ""%1"" does not exist.","La vue avec l’ID ""%1"" n’existe pas."
 "Both (without and with tax)","Les deux (HT et TTC)"
-Bottom/Left,"En bas à gauche"
-Bottom/Right,"En bas à droite"
-Braintree,Braintree
+"Bottom/Left","En bas à gauche"
+"Bottom/Right","En bas à droite"
+"Braintree","Braintree"
 "Braintree Settlement Report","Rapport de remboursements Braintree"
 "Braintree error response.","Réponse d’erreur Braintree."
 "Break bulk economy","Paquet divise éco"
@@ -1110,11 +1105,11 @@ Braintree,Braintree
 "By Products","Par produits"
 "By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.","En créant un compte sur notre boutique, vous pourrez passer vos commandes plus rapidement, enregistrer plusieurs adresses de livraison, consulter et suivre vos commandes, et plein d’autres choses encore."
 "By default it is ""reports.paypal.com"".","Par défaut il est ""reports.paypal.com""."
-CAPTCHA,CAPTCHA
+"CAPTCHA","CAPTCHA"
 "CAPTCHA Timeout (minutes)","Délai d’attente du CAPTCHA (minutes)"
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Le CAPTCHA sera toujours activé sur les formulaires ""Créer un utilisateur"" et ""Mot de passe perdu"" s'il est activé."
 "CAVV Response","Réponse CAVV"
-CMS,CMS
+"CMS","CMS"
 "CMS Block","Bloc CMS"
 "CMS Block with id ""%1"" does not exist.","Le bloc CMS id ""%1"" n’existe pas."
 "CMS Home Page","Page d’accueil CMS"
@@ -1129,13 +1124,13 @@ CMS,CMS
 "CMS Static Block","Bloc CMS statique"
 "CMS Static Block Default Template","Gabarit par défaut du bloc statique CMS"
 "CMS page:","Page CMS :"
-CNPJ,CNPJ
-CPF,CPF
+"CNPJ","CNPJ"
+"CPF","CPF"
 "CSS Editor","Éditeur CSS"
 "CSS Settings","Paramètres CSS"
 "CSS inlining error:","Erreur CSS ligne:"
-CSV,CSV
-CVV,CVV
+"CSV","CSV"
+"CVV","CVV"
 "CVV2 Check Result by PayPal","Résultat de vérification de CVV2 par PayPal"
 "CVV Entry is Editable","L’entrée CVV est modifiable"
 "CVV Verification","Vérification CVV"
@@ -1174,13 +1169,13 @@ CVV,CVV
 "Can be Divided into Multiple Boxes for Shipping","Peut être divisé en plusieurs colis pour la livraison"
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","Ne peut être utilisé qu’avec un type de saisie ""liste déroulante"", ""choix multiple"", ou ""prix"""
 "Can be used only with catalog input type Dropdown, Multiple Select and Price.","Ne peut être utilisé qu’avec un type de saisie ""liste déroulante"", ""choix multiple"", ou ""prix"""
-Cancel,Annuler
+"Cancel","Annuler"
 "Cancel Coupon","Annuler le bon de réduction"
 "Cancel coupon","Annuler le bon de réduction"
-Canceled,Annulée
+"Canceled","Annulée"
 "Canceled order offline","Commande annulée hors ligne"
 "Canceled order online","Commande annulée en ligne"
-Cancelled,Annulé
+"Cancelled","Annulé"
 "Cannot add duplicate addon or discount","Impossible d’ajouter une extension ou remise existante"
 "Cannot add item to shopping cart","Impossible d’ajouter l’article au panier"
 "Cannot add new comment.","Impossible d’ajouter un commentaire."
@@ -1285,7 +1280,7 @@ Cancelled,Annulé
 "Cannot write to the ""%1"" file. %2","Ecriture fichier ""%1"" impossible. %2"
 "Cant create backups directory","Impossible de créer le répertoire de sauvegarde"
 "Capitalization of class name '%1' does not match expected '%2'","La capitalisation de la classe '%1' ne correspond pas à '%2'"
-Capture,Capturer
+"Capture","Capturer"
 "Capture Action","Action de capture"
 "Capture Amount","Capturer le montant"
 "Capture Offline","Capturer Hors Ligne"
@@ -1300,9 +1295,9 @@ Capture,Capturer
 "Cardholder Name","Nom du titulaire de la carte"
 "Cardholder name is too long.","Nom du titulaire de la carte trop long."
 "Card type does not match credit card number.","Le type de carte ne correspond pas au numéro de carte."
-Carrier,Transporteur
-Carrier/Method,Transporteur/Méthode
-Carrier:,"Transporteur :"
+"Carrier","Transporteur"
+"Carrier/Method","Transporteur/Méthode"
+"Carrier:","Transporteur :"
 "Carrier Title","Nom du transporteur"
 "Carrier with such method not found: %1, %2","Méthode transporteur introuvable : %1, %2"
 "Cart %1 doesn't contain item  %2","Le panier %1 ne contient pas l’article %2"
@@ -1317,10 +1312,10 @@ Carrier:,"Transporteur :"
 "Cart Subtotal","Sous-total du panier"
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Le panier contient seulement des produits virtuels. L’adresse de livraison n’est pas applicable."
 "Cart contains virtual product(s) only. Shipping method is not applicable.","Le panier ne contient que des produits virtuels. Les méthodes de livraison ne sont pas applicables."
-Carts,Paniers
+"Carts","Paniers"
 "Case Sensitive","Sensible à la casse"
 "Cash On Delivery Payment","Paiement en espèces à la livraison"
-Catalog,Catalogue
+"Catalog","Catalogue"
 "Catalog, Search","Catalogue, recherche"
 "Catalog Advanced Search","Recherche avancée dans le catalogue"
 "Catalog Category Link","Lien vers les catégories de catalogue"
@@ -1339,11 +1334,11 @@ Catalog,Catalogue
 "Catalog Rule Product","Règles produit catalogue"
 "Catalog Search","Catalogue, recherche"
 "Catalog Section","Section catalogue"
-Categories,Catégories
+"Categories","Catégories"
 "Categories Options","Options pour les catégories"
-Category,Catégorie
+"Category","Catégorie"
 "Category ""%1"" has not been created.","La catégorie ""%1"" ne peut être crée."
-Category:,"Catégorie :"
+"Category:","Catégorie :"
 "Category Data","Données de catégorie"
 "Category Feeds","Flux de la catégorie"
 "Category Flat Data","Données fixes de catégorie"
@@ -1358,16 +1353,16 @@ Category:,"Catégorie :"
 "Category View Optimization","Optimisation de vue de catégorie"
 "Category does not contain specified product","La catégorie ne contient pas le produit demandé"
 "Category is not available for requested store.","La catégorie n’est pas disponible pour la boutique demandée."
-Center,Centrer
-Centimeters,Centimètres
-Change,Modifier
+"Center","Centrer"
+"Centimeters","Centimètres"
+"Change","Modifier"
 "Change Billing Address","Modifier l’adresse de facturation"
 "Change Email","Modifier l’email"
 "Change Email and Password","Modifier l’email et le mot de passe"
 "Change Encryption Key","Changer la clé de chiffrement"
 "Change Password","Modifier le mot de passe"
 "Change Price","Changer le prix"
-"Change Shipping Address",Modifier
+"Change Shipping Address","Modifier"
 "Change Status","Changer le statut"
 "Change indexer mode","Changer le mode d’indexation"
 "Changes have been made to this section that have not been saved.","Des modifications ont été apportées à cette section qui n’a pas été encore sauvegardée."
@@ -1375,8 +1370,8 @@ Change,Modifier
 "Changing address information will not recalculate shipping, tax or other order amount.","Changer les informations de l’adresse ne recalculera pas les frais de port, les taxes ou les autres montants de la commande."
 "Changing can take some time due to processing whole catalog.","Le changement de cette valeur peut prendre du temps car elle nécessite le traitement de tout le catalogue."
 "Channel is too long","Chaîne trop longue"
-Charge-off,Frais-off
-Chargeback,"Frais de retour"
+"Charge-off","Frais-off"
+"Chargeback","Frais de retour"
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Les données graphiques sont désactivées. Cliquez <a href=""%1"">ici</a> pour les activer."
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Cocher ""Se souvenir de moi"" pour accéder à votre panier sur cet ordinateur même si vous n’êtes pas connecté à votre compte."
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer when you are logged out","Cocher ""Se souvenir de moi"" pour accéder à votre panier sur cet ordinateur même si vous n’êtes pas connecté à votre compte"
@@ -1385,13 +1380,13 @@ Chargeback,"Frais de retour"
 "Check Data","Vérifier les données"
 "Check Out with Multiple Addresses","Utiliser plusieurs adresses de livraison"
 "Check \'Remember Me\' to access your shopping cart on this computer even if you are not signed in.","Cochez \'Se souvenir de moi\' pour accéder à votre panier sur cet ordinateur, même si vous n’êtes pas connecté ."
-Checkbox,"Case à cocher"
+"Checkbox","Case à cocher"
 "Checkbox Text","Texte de la case à cocher"
 "Check card details or try another card","Veuillez vérifier la carte ou en essayer une autre"
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Tranches vérifiées : %1, entités vérifiées : %2, lignes invalides : %3, total erreurs : %4"
 "Check here to link an RSS feed to your Wish List.","Cocher cette case pour activer le flux RSS de votre liste d’envies."
 "Check items to add to the cart or","Cochez les articles à ajouter au panier ou"
-Checkout,Commander
+"Checkout","Commander"
 "Checkout Cart Page","Page panier"
 "Checkout Conditions","Conditions de commande"
 "Checkout Method","Mode de commande"
@@ -1412,8 +1407,8 @@ Checkout,Commander
 "Check this checkbox if you want to add a link to an rss feed to your wishlist.","Cochez cette case si vous souhaitez ajouter un lien vers un flux RSS vers votre liste d’envies."
 "Child Transactions","Transactions enfant"
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Le produit enfant avec le SKU ""%1"" est déjà assigné au produit ""%2"""
-Choose,Choisir
-Choose...,Choisir...
+"Choose","Choisir"
+"Choose...","Choisir..."
 "Choose Affected Attribute Set","Choisissez le jeu d’attributs"
 "Choose Store View:","Choisir la vue magasin :"
 "Choose a color","Choisir une couleur"
@@ -1421,7 +1416,7 @@ Choose...,Choisir...
 "Choose an Option...","Choisissez une option..."
 "Choose a new product to delete and replace the current product configuration.","Choisissez un nouveau produit à supprimer et remplacer la configuration actuelle du produit."
 "Choose a secure bundled payment solution for your business.","Choisissez une solution de paiement sécurisé pour votre entreprise."
-"Choose a selection...",Choisissez...
+"Choose a selection...","Choisissez..."
 "Choose existing Attribute Set","Choisissez un jeu d’attributs existant"
 "Choose existing category.","Choisissez une catégorie existante."
 "Choose whether a customer IP is shown in orders, invoices, shipments, and credit memos.","Choisissez si l’adresse IP du client est affichée sur les commandes, factures, livraisons, et avoirs."
@@ -1430,12 +1425,12 @@ Choose...,Choisir...
 "Chosen cms page does not associated with the chosen store.","La page CMS n’est pas associée à une boutique."
 "Chosen product does not associated with the chosen store or category.","Le produit n’est pas associée à une boutique ou une catégorie."
 "Circular-reference in theme inheritance detected for ""%1""","Une référence circulaire dans l’héritage du thème a été détectée pour ""%1"""
-City,Ville
+"City","Ville"
 "Class name and class type","Nom et type de la classe"
 "Cleanup Probability","Probabilité de nettoyage"
 "Cleanup Settings","Paramètres de nettoyage"
 "Cleanup entries older than X minutes.","Nettoyer les entrées plus vieilles de X minutes."
-Clear,Vider
+"Clear","Vider"
 "Clear All","Tout supprimer"
 "Clear Persistence on Log Out","Effacer la persistance lors de la déconnexion"
 "Clear Persistence on Sign Out","Ne plus se souvenir de moi lors de la déconnexion"
@@ -1462,12 +1457,12 @@ Clear,Vider
 "Click to change shipping method","Cliquer pour changer le mode de livraison"
 "Client Side Encryption Key","Clé de chiffrement côté client"
 "Client side less compilation","Compilation less coté client"
-Close,Fermer
+"Close","Fermer"
 "Close Window","Fermer la fenêtre"
-Closed,Fermée
+"Closed","Fermée"
 "Close panel","Fermer le panel"
 "Close popup","Fermer la popup"
-Code,Code
+"Code","Code"
 "Code Format","Format du code"
 "Code Length","Longueur du code"
 "Code Prefix","Préfixe de code"
@@ -1480,32 +1475,32 @@ Code,Code
 "Collections Data","Données de collections"
 "Column ""%1"" not found","Colonne ""%1"" non trouvée"
 "Column names: ""%1"" are invalid","Noms de colonne : ""%1"" invalides"
-Columns,Colonnes
+"Columns","Colonnes"
 "Columns number: ""%1"" have empty headers","Colonne numéro : ""%1"" possède un en-tête vide"
-Comma-separated,"Séparées par des virgules"
-Comma-separated.,"Séparées par des virgules."
+"Comma-separated","Séparées par des virgules"
+"Comma-separated.","Séparées par des virgules."
 "Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Liste des synonymes séparés par des virgules. Les termes saisis (séparés par des virgules ) seront utilisés comme un ""OU"" dans la requête de recherche à trouver dans l’ensemble de votre boutique. Par exemple, si vous saisissez ""chaussures, chaussures"", et que l’utilisateur recherche des ""chaussures"", les résultats de la recherche comprendront tout produit ou contenu avec l’expression ""chaussures"" ou ""chaussures""."
 "Command %1 does not exist.","La commande %1 n’existe pas."
 "Command Executor for %1 is not defined.","Exécuteur de commande pour 1% indéfini."
 "Command returned non-zero exit code:\n`%1`","La commande a retourné une sortie avec le code non-zero : \n`%1`"
-Comment,Commentaire
-Comment:,"Commentaire :"
+"Comment","Commentaire"
+"Comment:","Commentaire :"
 "Comment: %1<br/>","Commentaire : %1<br>"
 "Comment: %comment","Message : %comment"
 "Comment Text","Texte du commentaire"
 "Comment added","Commentaire ajouté"
 "Comments History","Historique de commentaires"
 "Comment text cannot be empty.","Le commentaire ne peut être vide."
-Commercial,Commercial
-Communications,Communications
+"Commercial","Commercial"
+"Communications","Communications"
 "Community Edition","Community Edition"
-Company,Société
+"Company","Société"
 "Company is invalid","Nom de la société invalide"
 "Company is too long.","Le nom de la société est trop long."
-Comparable,Comparable
+"Comparable","Comparable"
 "Comparable on Frontend","Comparable sur le frontend"
 "Comparable on Storefront","Comparable sur la boutique"
-Compare,Comparer
+"Compare","Comparer"
 "Compare Products","Comparer des produits"
 "Compared Product Images Only Template","Gabarit des images des produits comparés uniquement"
 "Compared Product Names Only Template","Gabarit des noms des produits comparés uniquement"
@@ -1515,12 +1510,12 @@ Compare,Comparer
 "Compatible File Extensions","Extensions de fichiers compatibles"
 "Compatible file extensions to upload","Extensions de fichier pris en charge à l’envoi de fichier"
 "Compilation from source: ","Compilation depuis la source : "
-Complaint,Réclamation
-Complete,Terminée
+"Complaint","Réclamation"
+"Complete","Terminée"
 "Concurrent session information:","Informations de session simultanées :"
-Condition,Condition
+"Condition","Condition"
 "Condition Name","Nom de la Condition"
-Conditions,Conditions
+"Conditions","Conditions"
 "Conditions (don't add conditions if rule is applied to all products)","Conditions (ne pas ajouter de conditions si la règle doit s'appliquer à tous les produits)"
 "Conditions (don\'t add conditions if rule is applied to all products)","Conditions (ne pas ajouter de conditions si la règle doit s\'appliquer à tous les produits)"
 "Conditions (leave blank for all products)","Conditions (laisser vide pour appliquer à tous les produits)"
@@ -1535,14 +1530,14 @@ Conditions,Conditions
 "Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).","Les produits configurables permettent aux clients de choisir des options (Ex : une couleur). Vous devez créer un produit simple pour chaque configuration possible. (Ex: un produit pour chaque couleur)."
 "Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).","Les produits configurables permettent aux clients de choisir des options (ex : couleur de chemise)."
 "Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).","Les produits configurables permettent aux clients de choisir des options (Ex : une couleur). Vous devez créer un produit simple pour chaque configuration possible. (Ex: un produit pour chaque couleur)."
-Configuration,Configuration
+"Configuration","Configuration"
 "Configuration must have specified attributes","La configuration doit avoir des attributs spécifiques"
-Configurations,Configurations
+"Configurations","Configurations"
 "Configurations cannot be created for a standard product with downloadable files. To create configurations, first remove all downloadable files.","Les configurations ne peuvent être créées pour un produit standard possédant des fichiers téléchargeables. Pour créer des configurations, veuillez supprimer tous les fichiers téléchargeables."
-Configure,Configurer
+"Configure","Configurer"
 "Configure Product","Configurer le produit"
 "Configure and Add to Order","Configurer et ajouter à la commande"
-Confirm,Confirmer
+"Confirm","Confirmer"
 "Confirm New Password","Confirmer le nouveau mot de passe"
 "Confirm Password","Confirmer le mot de passe"
 "Confirm Your Account","Confirmez votre compte"
@@ -1551,7 +1546,7 @@ Confirm,Confirmer
 "Confirmation Link Email","Email de lien de confirmation"
 "Confirmation Not Required","Confirmation non requise"
 "Confirmation Required","Confirmation requise"
-Confirmed,Confirmé
+"Confirmed","Confirmé"
 "Confirmed email","Email confirmé"
 "Confirmed email:","Email confirmé :"
 "Confirm your new password","Confirmez votre nouveau mot de passe"
@@ -1560,7 +1555,7 @@ Confirmed,Confirmé
 "Connection Timeout in Seconds","Délai d’attente de connexion en secondes"
 "Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Connectez votre compte marchand avec une passerelle compatible PCI qui permet aux clients de payer sans quitter votre site."
 "Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Connectez votre compte marchand avec une passerelle entièrement personnalisable qui permet aux clients de payer sans quitter votre site."
-Constant,Fixe
+"Constant","Fixe"
 "Construction problem.","Problème de construction"
 "Consumer %consumer_id is not authorized to access %resources","Utilisateur %consumer_id ne peut accéder à %resources"
 "Consumer Key","Clé API"
@@ -1576,11 +1571,11 @@ Constant,Fixe
 "Contact Form","Formulaire de contact"
 "Contact Information","Informations de contact"
 "Contact Us","Nous contacter"
-Contacts,Contacts
+"Contacts","Contacts"
 "Contacts Section","Section contacts"
 "Contact your bank or try another card","Contactez votre banque ou essayez une autre carte bancaire"
-Container,Container
-Content,Contenu
+"Container","Container"
+"Content","Contenu"
 "Content-Type header is empty.","Content-Type de l’entête vide."
 "Content-Type header is invalid.","Content-Type de l’entête invalide."
 "Content Heading","En-tête de contenu"
@@ -1588,10 +1583,10 @@ Content,Contenu
 "Content Height (css)","Hauteur du contenu (CSS)"
 "Content Management","Gestion du Contenu"
 "Content Type","Type de contenu"
-Contents,Contenus
+"Contents","Contenus"
 "Contents of %s could not be loaded or is empty","Le contenu de %s ne peut pas être chargé ou est vide"
 "Contents of a Static Block","Contenu d’un bloc statique"
-Continue,Continuer
+"Continue","Continuer"
 "Continue Shopping","Continuer vos achats"
 "Continue to Billing Information","Continuer vers les informations de facturation"
 "Continue to PayPal","Continuer avec PayPal"
@@ -1614,11 +1609,11 @@ Continue,Continuer
 "Cookie Restriction Mode","Mode de restriction de cookie"
 "Cookie name cannot be empty and cannot contain these characters: =,; \\t\\r\\n\\013\\014","Le nom du cookie ne peut contenir les caractères suivants : =,; \\t\\r\\n\\013\\014"
 " Copy"," Copie"
-Copy,Copie
+"Copy","Copie"
 "Copy Data from","Copier les données depuis"
 "Copy Selected to Wish List","Copier la sélection vers la liste d’envies"
 "Copy of %1","Copie de %1"
-Copyright,Copyright
+"Copyright","Copyright"
 "Copyright &copy; %1 Magento Commerce Inc. All rights reserved.","Copyright&copy; %1 Magento Commerce Inc. Tous droits réservés."
 "Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Copyright&copy; %1 Magento Commerce Inc. Tous droits réservés."
 "Copyright © 2015 Magento. All rights reserved.","Copyright © 2015 Magento. Tous droits réservés."
@@ -1664,8 +1659,8 @@ Cost,Coût
 "Could not save the page: %1","Impossible de sauvegarder la page : %1"
 "Could not update option with id ""%1""","Impossible de mettre à jour l’option id ""%1"""
 "Countries Payment Applicable From","Pays applicables pour le paiement"
-Country,Pays
-Country/State,"Pays / État"
+"Country","Pays"
+"Country/State","Pays / État"
 "Country Options","Options des pays"
 "Country Specific Credit Card Types","Types de cartes bancaires spécifiques pays"
 "Country Specific Settings","Paramètres spécifiques des pays"
@@ -1675,19 +1670,19 @@ Country/State,"Pays / État"
 "Country code numeric is not accepted","Code pays numérique non accepté"
 "Country name is not an accepted country.","Non du pays non accepté."
 "Country of Manufacture","Pays de fabrication"
-Coupon,"Bon de réduction"
+"Coupon","Bon de réduction"
 "Coupon Code","Code du bon de réduction"
 "Coupon Qty","Qté de bons de réduction"
 "Coupon Redemption","Remboursement de coupon"
 "Coupon code is not valid","Le bon de réduction est invalide"
-Coupons,"Bons de Réduction"
-Coupons/Discounts,Coupons/Réductions
+"Coupons","Bons de Réduction"
+"Coupons/Discounts","Coupons/Réductions"
 "Coupons Information","Informations sur les bons de réduction"
 "Coupons Report","Rapport des bons de réduction"
 "Coupons Usage Report","Rapport des utilisations des bons de réduction"
 "Coupon with the same code","Coupon de réduction avec le même code"
-Create,Créer...
-Create...,Créer...
+"Create","Créer..."
+"Create...","Créer..."
 "Create Account","Créer un compte"
 "Create Backup","Créer une sauvegarde"
 "Create Billing Address","Créer une adresse de facturation"
@@ -1730,14 +1725,14 @@ Create...,Créer...
 "Create Website","Créer un site web"
 "Create account","Créer un compte"
 "Create an Account","Créer un compte"
-Created,Créé
-Created:,"Créé :"
+"Created","Créé"
+"Created:","Créé :"
 "Created: %1, Updated: %2, Deleted: %3","Crée : %1, Mis à jour : %2, Supprimé : %3"
 "Created At","Créé Le"
 "Created billing agreement #%1.","Entente de facturation #%1 créée."
 "Creating an account has many benefits:","La création d’un compte possède de nombreux avantages :"
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","La création d’un compte a de nombreux avantages : consultation rapide, sauvegarder plusieurs adresses, suivre les commandes, et bien plus encore."
-Credit,Crédit
+"Credit","Crédit"
 "Credit Card","Carte de crédit"
 "Credit Card %1","Carte Bancaire %1"
 "Credit Card: xxxx-%1","Carte de crédit: xxxx-%1"
@@ -1749,7 +1744,7 @@ Credit,Crédit
 "Credit Card Verification","Vérification de la carte de crédit"
 "Credit Cards","Carte bancaire"
 "Credit Card was successfully removed","Carte de crédit supprimée avec succès"
-"Credit Memo",Avoir
+"Credit Memo","Avoir"
 "Credit Memo # ","Avoir # "
 "Credit Memo #%1 | %3 | %2 (%4)","Avoir #%1 | %3 | %2 (%4)"
 "Credit Memo Comment Email Sender","Expéditeur de l’email de commentaire d’avoir"
@@ -1787,13 +1782,13 @@ Credit,Crédit
 "Credits are not supported by this processor","Crédits non supportés par ce service de paiement"
 "Credits cannot be cloned.","Les crédits ne peuvent être clonés."
 "Critical System Messages","Messages système critiques"
-Cron,Cron
+"Cron","Cron"
 "Cron (Scheduled Tasks)","Cron (tâches programmées)"
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (tâches programmées) - tous les temps sont en minutes"
 "Cron configuration options for group: ","Options de configuration du CRON du groupe: "
 "Cross-Sell Products","Produits en ventes croisées"
-Cross-sells,"Ventes croisées"
-Currency,Devise
+"Cross-sells","Ventes croisées"
+"Currency","Devise"
 "Currency ""%1"" is used as %2 in %3.","La devise ""%1"" est utilisée comme %2 dans %3."
 "Currency Conversion required to cover negative balance","Conversion des devises nécessaires pour couvrir un solde négatif"
 "Currency Options","Options de devise"
@@ -1815,7 +1810,7 @@ Currency,Devise
 "Current module EAV entity is undefined","Le module d’entités EAV actuel n’est pas défini"
 "Current module pathname is undefined","Le chemin d’accès actuel du module n’est pas défini"
 "Current store is not active.","La boutique actuel n’est pas actif."
-Custom,Personnalisé
+"Custom","Personnalisé"
 "Custom1 Contact Email","Email du contact personnalisé 1"
 "Custom1 Contact Name","Nom du contact personnalisé 1"
 "Custom2 Contact Email","Email du contact personnalisé 2"
@@ -1844,9 +1839,9 @@ Custom,Personnalisé
 "Custom Variables","Variables personnalisées"
 "Custom design from","Design personnalisé à partir du"
 "Custom design to","Design personnalisé jusqu’au"
-Customer,Client
+"Customer","Client"
 "Customer's Activities","Activités clients"
-Customer:,"Client :"
+"Customer:","Client :"
 "Customer Addresses","Adresses client"
 "Customer Configuration","Configuration client"
 "Customer Email","Email du client"
@@ -1888,7 +1883,7 @@ Customer:,"Client :"
 "Customer email is required","L’email du client est obligatoire"
 "Customer has been unlocked successfully.","Client débloqué avec succès."
 "Customer is already registered","Client déjà sauvegardé"
-Customers,Clients
+"Customers","Clients"
 "Customers Now Online","Clients en ligne"
 "Customers Only","Clients seulement"
 "Customers Report","Rapport clients"
@@ -1924,15 +1919,15 @@ Customers,Clients
 "Cycle found. Query %1 already used in request hierarchy","Cycle trouvé. Requête %1 déjà utilisée dans la requête hiérarchique"
 "DB exception","Exception DB"
 "DB storage table does not exist","Table de la base de données inexistante"
-DD,JJ
-DHL,DHL
+"DD","JJ"
+"DHL","DHL"
 "DHL service is not available at %s date","Le service DHL n’est pas disponible à la date du %s"
-Daily,Quotidien
+"Daily","Quotidien"
 "Dash Every X Characters","Ajouter un trait tous les X caractères"
-Dashboard,"Tableau de bord"
+"Dashboard","Tableau de bord"
 "Data Transfer","Transfert de données"
 "Data Type for Saving in Database","Type de données à sauvegarder dans la base de données"
-Database,"Base de données"
+"Database","Base de données"
 "Database Backup","Sauvegarde de base de données"
 "Database DDL operations","Requêtes DDL sur la base de données"
 "Database and Media","Base de données et médias"
@@ -1944,28 +1939,28 @@ Database,"Base de données"
 "Data validation failed. Please fix the following errors and upload the file again.","Échec lors de la validation des données. Veuillez corriger les erreurs suivantes et charger à nouveau le fichier."
 "Data validation is failed. Please fix errors and re-upload the file.","La validation des données a échoué. Veuillez corriger les erreurs et recharger le fichier."
 "Data validation is failed. Please fix errors and re-upload the file..","La validation des données a échoué. Veuillez corriger les erreurs et recharger le fichier."
-Date,Date
+"Date","Date"
 "Date & Time:","Date et heure :"
 "Date & Time Custom Options","Options de date & heure personnalisées"
 "Date Added","Date d’ajout"
 "Date Fields Order","Ordre des champs de date"
-"Date From",Du
+"Date From","Du"
 "Date Of Birth","Date de naissance"
 "DateTime object timezone must be the same as config - %1","L’objet DateTime du fuseau horaire ne doit pas être le même que celui défini dans la configuration - %1"
-"Date To",Au
+"Date To","Au"
 "Date Used","Date utilisée"
 "Date of Birth","Date de naissance"
 "Date selector","Sélecteur de date"
-Datetime,"Date et heure"
-Day,Jour
+"Datetime","Date et heure"
+"Day","Jour"
 "Days in Wish List","Nombre de jour dans la liste d’envies"
-Debit,Débit
+"Debit","Débit"
 "Debit Card Cash Back","Retour d’argent par carte de débit"
 "Debit Card Transaction","Transaction par carte de débit"
 "Debit or Credit","Débit ou crédit"
-Debug,Débogage
+"Debug","Débogage"
 "Debug Mode","Mode débogage"
-Decimal,Décimal
+"Decimal","Décimal"
 "Decimal Number","Nombre décimal"
 "Decimal qty increments is not allowed.","Les incréments de quantités ne peuvent pas être une valeur décimale."
 "Declare attribute value saving scope","Déclarer la portée d’économie de valeurs d’attributs"
@@ -1974,7 +1969,7 @@ Decimal,Décimal
 "Decoding error.","Décodage de l’erreur."
 "Decoding error: %1%2%3%4","Décodage de l’erreur: %1%2%3%4"
 "Decrease Stock When Order is Placed","Décrémenter le stock quand la commande est validée"
-Default,"Par défaut"
+"Default","Par défaut"
 "Default ""What's This"" Text Message","Texte par défaut du message ""Qu’est-ce que c'est"""
 "Default Addresses","Adresses par défaut"
 "Default Billing","Facturation par défaut"
@@ -2037,7 +2032,7 @@ Default,"Par défaut"
 "Default welcome msg!","Message de bienvenue par défaut !"
 "Defines whether a link to My Account","Détermine l’affichage d’un lien vers ""Mon Compte"""
 "Delay in minutes between password reset requests. Use 0 to disable.","Durée en minutes entre les demandes de réinitialisation du mot de passe. Utilisez 0 pour désactiver."
-Delete,Supprimer
+"Delete","Supprimer"
 "Delete ""${ $.$data.title }""","Supprimer ""${ $.$data.title }"""
 "Delete ${ $.$data.title }","Supprimer ${ $.$data.title }"
 "Delete %1","Supprimer %1"
@@ -2095,12 +2090,12 @@ Delete,Supprimer
 "Depends on design theme.","Dépendant du thème de design"
 "Deployment config file %1 is not writable.","Le fichier de configuration de déploiement %1 ne peut être écrit."
 "Deployment configuration file is not writable.","Le fichier de configuration du déploiement n’est pas accessible en écriture."
-Depth,Profondeur
-Description,Description
+"Depth","Profondeur"
+"Description","Description"
 "Description Message","Message de description"
 "Deselect All","Tout désélectionner"
 "Deselect All on This Page","Désélectionner tout sur cette page"
-Design,Design
+"Design","Design"
 "Design Change","Changement de Design"
 "Design Config Grid","Grille de configuration design"
 "Design Configuration","Configuration du design"
@@ -2115,32 +2110,32 @@ Design,Design
 "Destination directory is not writable","Le répertoire de destination n’a pas les droits en écriture"
 "Destination file is not writable","Le fichier de destination n’a pas les droits en écriture"
 "Destination file path must be a string","Le chemin du fichier de destination doit être une chaîne de caractères"
-Detail,Détail
+"Detail","Détail"
 "Detailed Rating","Notation détaillée"
-Details,Détails
+"Details","Détails"
 "Details for %1 #%2","Détails pour %1 #%2"
-Developer,Développeur
+"Developer","Développeur"
 "Developer Client Restrictions","Restrictions client développeur"
 "Developer Section","Section développeur"
-Development,Développement
+"Development","Développement"
 "Dictionary (Translation on Storefront side)","Dictionnaire (Traduction coté Front Office)"
-Direct,Directe
+"Direct","Directe"
 "Direct Payment API","API Paiement direct"
 "Directory ""%1"" cannot be created %2","Le répertoire ""%1"" ne peut être crée %2"
 "Directory %1 is not under storage root path.","Le répertoire %1 n’est pas un chemin d’accès à la racine de stockage."
 "Directory separator ""\" is prohibited in fixture declaration.","Le séparateur de répertoire ""\" est interdit."
-Disable,Désactiver
+"Disable","Désactiver"
 "Disable Automatic Group Change Based on VAT ID","Désactiver le changement automatique de groupe basé sur la TVA"
 "Disable Email Communications","Désactiver les envois d’email"
 "Disable Guest Checkout if Cart Contains Downloadable Items","Désactiver le passage de commande en tant qu’invité si le panier contient des produits téléchargeables"
 "Disable Modules Output","Désactiver la sortie des modules"
 "Disable Product","Désactiver le produit"
-Disabled,Désactivé
+"Disabled","Désactivé"
 "Disabled Completely","Désactivé complètement"
 "Disabled by Default","Désactivé par défaut"
 "Disassociated Products","Produits dissociés"
 "Discard subsequent rules","Ignorer les règles suivantes"
-Discount,Remise
+"Discount","Remise"
 "Discount (%1)","Remise (%1)"
 "Discount Amount","Montant de la remise"
 "Discount Codes","Codes de remises"
@@ -2148,13 +2143,13 @@ Discount,Remise
 "Discount amount is applied to subtotal and shipping amount separately","Le montant de la remise est appliqué au sous-total et la quantité expédiée de manière séparée."
 "Discount amount is applied to subtotal only","Le montant de la remise est appliqué au sous-total seulement"
 "Discount value should be 0 or greater.","La valeur de la remise doit être supérieure à 0."
-Display,Affichage
+"Display","Affichage"
 "Display Actual Price","Afficher les vrais prix"
 "Display Cart Summary","Afficher le résumé du panier"
 "Display Demo Store Notice","Afficher le message d’avertissement de boutique de démo"
 "Display Express Checkout in the Payment Information step","Afficher le paiement Express dans l’étape des informations de paiement"
 "Display Full Tax Summary","Afficher le résumé complet des taxes"
-"Display Mode",Affichage
+"Display Mode","Affichage"
 "Display Order ID in Header","Afficher l’identifiant de commande dans l’en-tête"
 "Display Out of Stock Products","Afficher les produits épuisés"
 "Display Page Control","Contrôle de l’affichage de la page"
@@ -2188,16 +2183,16 @@ Display,Affichage
 "Display products availability in stock in the frontend","Afficher la disponibilité des produits sur le frontend en fonction du stock"
 "Display products availability in stock on Storefront.","Afficher la disponiblité des produits sur le front office."
 "Displays on catalog pages and homepage.","L’affichage sur les pages de catalogue et l’accueil."
-Dispute,Contestation
+"Dispute","Contestation"
 "Divide Order Weight","Diviser le poids de la commande"
 "Divide to equal weight (one request)","Diviser en poids égal (une requête)"
-Documents,Documents
+"Documents","Documents"
 "Does this have a weight?","Possède un poids ?"
 "Domestic economy select","Sélection éco domestique"
 "Domestic express","Domestique express"
 "Don't have a PayPal account? Simply enter your email address.","Vous n’avez pas de compte PayPal ? Il suffit d’entrer votre adresse email."
 "Don't see what you're looking for?","Vous ne trouvez pas ce que vous cherchez ?"
-Done,Terminé
+"Done","Terminé"
 "Done import data validation","Validation des données terminée"
 "Do not change the scope. ","Ne pas modifier la portée. "
 "Do not change the scope. %1","Ne pas modifier la portée. %1"
@@ -2205,7 +2200,7 @@ Done,Terminé
 "Do not use two or more consecutive slashes in the url rewrite suffix.","Ne pas utiliser deux ou plusieurs slashes (""/"") consécutifs dans le suffixe de la réécriture d’URL."
 "Double click on a group to rename it","Double-cliquez sur un groupe pour le renommer"
 "Double click on a group to rename it.","Double-cliquez sur un groupe pour le renommer."
-Download,Télécharger
+"Download","Télécharger"
 "Download CSS File","Télécharger un fichier CSS"
 "Download Sample File","Télécharger le fichier d’exemple"
 "Downloadable Information","Informations téléchargements"
@@ -2213,16 +2208,16 @@ Download,Télécharger
 "Downloadable Product Section","Section produit téléchargeable"
 "Downloadable Products","Produits Téléchargeables"
 "Download full report","Téléchargez le rapport complet"
-Downloads,Téléchargements
+"Downloads","Téléchargements"
 "Downloads Report","Rapport des téléchargements"
 "Do you have any gift items in your order?","Y a-t-il des articles cadeaux dans votre commande ?"
 "Do you really want to cancel the queue?","Voulez-vous vraiment supprimer la file ?"
 "Do you really want to delete this tax class?","Voulez-vous vraiment supprimer cette classe de taxe ?"
 "Do you really want to delete this tax rate?","Voulez-vous vraiment supprimer ce taux de taxe ?"
-Drop-down,"Liste Déroulante"
+"Drop-down","Liste Déroulante"
 "Drop Box","Boîte de dépôt"
-Dropdown,"Liste déroulante"
-Dropoff,Déposer
+"Dropdown","Liste déroulante"
+"Dropoff","Déposer"
 "Duplicate 'view_id' in indexer declaration","Doublon 'view_id’ dans la déclaration de l’indexer"
 "Duplicate Of Template Name","Duplication du nom de gabarit"
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Ligne #%1 dupliquée (Pays ""%2"", Région/Etat ""%3"", code postal ""%4"" et valeur ""%5"")"
@@ -2234,8 +2229,8 @@ Dropoff,Déposer
 "Duplicate indexer id","Doublon id de l’indexer"
 "Duplicate template code","Code de gabarit dupliqué"
 "Duplicate transaction","Doublon de transaction"
-Duration:,"Durée :"
-Dynamic,Dynamique
+"Duration:","Durée :"
+"Dynamic","Dynamique"
 "Dynamic Price","Prix dynamique"
 "Dynamic SKU","SKU dynamique"
 "Dynamic Weight","Poids dynamique"
@@ -2249,7 +2244,7 @@ Dynamic,Dynamique
 "Easy access to your order history and status","Consultez et suivez vos commandes"
 "Easy shop","Achat facile"
 "Economy select","Sélection économique"
-Edit,Modifier
+"Edit","Modifier"
 "Edit ""%1"" Integration","Modifier ""%1"" Intégration"
 "Edit Account Information","Modifier les informations du compte"
 "Edit Address","Modifier l’adresse"
@@ -2319,12 +2314,12 @@ Edit,Modifier
 "Edit role","Modifier le rôle"
 "Element ID must not be numeric: '%1'.","L’ID de l’élément doit être numérique: '%1'."
 "Element name and destination must be specified.","Le nom de l’élément et sa destination doivent être spécifiés."
-Elements,Éléments
+"Elements","Éléments"
 "Element with ID '%1' already exists.","Un élément avec l’ID '%1' existe déjà."
 "Element with ID '%1' is already defined.","Un élément avec l’ID '%1' est déjà défini."
-Eligible,Eligible
-Email,Email
-Email:,"Email :"
+"Eligible","Eligible"
+"Email","Email"
+"Email:","Email :"
 "Email: %email","Email: %email"
 "Email Address","Adresse email"
 "Email Address:","Adresse email :"
@@ -2349,12 +2344,12 @@ Email:,"Email :"
 "Email is required if sending a receipt.","Email requis si envoi d’un accusé de réception."
 "Email is too long.","Email trop long."
 "Email not confirmed","Email non confirmé"
-Emails,Emails
+"Emails","Emails"
 "Email template chosen based on theme fallback, when the ""Default"" option is selected.","Modèle email choisi basé sur le thème de repli, lorsque l’option ""Par défaut"" est sélectionnée."
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Le template d’email choisi est basé sur le thème parent lorsque l’option ""Défaut"" est sélectionnée."
 "Email to a Friend","Envoyer à un ami"
 "Embedded (Translation on Admin side)","Embarqué (Traduction coté Back Office)"
-Empty,Vide
+"Empty","Vide"
 "Empty Rows","Lignes Vides"
 "Empty Value.","Valeur vide."
 "Empty array of node information","Tableau vide d’informations noeud"
@@ -2366,7 +2361,7 @@ Empty,Vide
 "Empty keys array","Clés de tableau vides"
 "Empty main table name","Nom de la table principale vide"
 "Empty response","Réponse vide"
-Enable,Activer
+"Enable","Activer"
 "Enable ""Remember Me""","Activer ""Se souvenir de moi"""
 "Enable Autocomplete on login/forgot password forms","Activer la saisie semi-automatique sur les formulaires de connexion/mot de passe oublié"
 "Enable Automatic Assignment to Customer Group","Activer l’assignation automatique à un groupe de clients"
@@ -2414,7 +2409,7 @@ Enable,Activer
 "Enable WSDL Cache","Activer le cache WSDL"
 "Enable WYSIWYG","Activer l’éditeur WYSIWYG"
 "Enable WYSIWYG Editor","Activer l’éditeur WYSIWYG"
-Enabled,Activé
+"Enabled","Activé"
 "Enabled Template Path Hints for Admin","Activer les astuces chemin des gabarits sur le back office"
 "Enabled Template Path Hints for Storefront","Activer les astuces chemin des gabarits sur le front office"
 "Enabled by Default","Activé par défaut"
@@ -2426,7 +2421,7 @@ Enabled,Activé
 "Enabling MAP by default will hide all product prices on Storefront.","Activer MAP par défaut masquera tous les prix produits."
 "Encryption Key","Clé de chiffrement"
 "Encryption Key Change","Changement de clé de cryptage"
-End,Fin
+"End","Fin"
 "End Date","Date de fin"
 "End Date must follow Start Date.","La date de fin doit être supérieure à la date de début."
 "End on","Fin le"
@@ -2457,13 +2452,13 @@ End,Fin
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Le modèle du type d’entité doit être une instance de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
 "Entity types declaration cache","Cache de déclaration des types d’entité."
 "Entity types declaration cache.","Cache de déclaration des types d’entité."
-Environment,Environnement
+"Environment","Environnement"
 "Environment Update Time","Temps de mise à jour de l’environnement"
 "Environment emulation nesting is not allowed.","L’imbrication d’émulation d’environnement n’est pas autorisée."
-Error,Erreur
-Error!,"Erreur !"
+"Error","Erreur"
+"Error!","Erreur !"
 "Error #%1 : %2","Erreur #%1 : %2"
-Error:,"Erreur :"
+"Error:","Erreur :"
 "Error: unknown error.","Erreur inconnue."
 "Error Code","Code erreur"
 "Error Email Recipient","Destinataire de l’email d’erreur"
@@ -2496,11 +2491,11 @@ Error:,"Erreur :"
 "Estimate Shipping and Tax","Estimer la livraison et la TVA"
 "Estimate Tax","Estimation taxe"
 "Estimated Total","Total estimé"
-Europack,Europack
+"Europack","Europack"
 "Europe First Priority","Prioritaire Europe"
 "European Union Countries","Pays de l’Union Européenne"
 "Europe bank account","Compte bancaire Européen"
-Event,Événement
+"Event","Événement"
 "Event Code","Code Événement"
 "Every 3 days","Tous les 3 jours"
 "Every 7 days","Tous les 7 jours"
@@ -2517,21 +2512,21 @@ Event,Événement
 "Example: 0.0.0.1 or 123.1.0.25-alpha1","Exemple: 0.0.0.1 ou 123.1.0.25-alpha1"
 "Example format: 200x300.","Exemple: 200x300."
 "Excel XML","XML Excel"
-Exception,Exception
-Exception.,Exception.
+"Exception","Exception"
+"Exception.","Exception."
 "Exception does not contain field '%1'","L’exception ne contient pas le champ ""%1"""
 "Exception message","Message d’exception"
 "Exception message.","Message d’exception"
 "Exception occurred during order load","Une exception est survenue lors du chargement de la commande"
 "Exceptions Log File Name","Nom du fichier de log d’exceptions"
-"Excl. Tax",HT
+"Excl. Tax","HT"
 "Excl. Tax:","HT :"
 "Excl. tax:","HT :"
-Exclude,Exclure
+"Exclude","Exclure"
 "Exclude media folder from backup","Exclure le dossier média de la sauvegarde"
 "Excluding FPT","Hors TFP"
 "Excluding FPT. Including FPT description and final price","TFP incluse dans Description et prix final"
-"Excluding Tax",HT
+"Excluding Tax","HT"
 "Excluding prefix, suffix and separators.","En excluant le préfixe, le suffixe et les séparateurs."
 "Execution Time","Temps d’exécution"
 "Expand All","Tout développer"
@@ -2544,8 +2539,8 @@ Exclude,Exclure
 "Expiration date year is invalid.","Année de date d’expiration invalide."
 "Expiration month is invalid.","Le mois d’expiration est invalide."
 "Expiration year is invalid.","Année de date d’expiration invalide."
-Explanation,Explication
-Export,Exporter
+"Explanation","Explication"
+"Export","Exporter"
 "Export CSV","Export CSV"
 "Export File Format","Format du fichier d’export"
 "Export Settings","Paramètres d’export"
@@ -2571,20 +2566,20 @@ Export,Exporter
 "Extended Address","Extension d’adresse"
 "Extended address is invalid","Extension d’adresse invalide"
 "Extended address is too long.","Extension d’adresse trop longue."
-Extensions,Extensions
+"Extensions","Extensions"
 "Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","Les Extensions et les Thèmes sont des composants essentiels de l’écosystème de Magento. Vous pouvez visiter le marketplace Magento pour voir les dernières innovations que les développeurs ont créés pour améliorer votre boutique Magento."
 "Extra parameters passed to parent construct: %1. File: %2","Paramètres supplémentaires passés au constructeur parent : %1. Fichier : %2"
-FALSE,FAUSSES
+"FALSE","FAUSSES"
 "FATAL ERROR:","ERREUR FATALE :"
 "FDS Filter Action","Filtre d’action FDS"
-FOUND,"PRÉSENT DANS LE"
-FPT,TFP
-FTP,FTP
+"FOUND","PRÉSENT DANS LE"
+"FPT","TFP"
+"FTP","FTP"
 "FTP Host","Hôte FTP"
 "FTP Login","Login FTP"
 "FTP Password","Mot de passe FTP"
 "FTP credentials","Informations de connexion FTP"
-Failed,échec.
+"Failed","échec."
 "Failed to create backup","Echec lors de la création de la sauvegarde"
 "Failed to create directory %1","Impossible de créer le répertoire %1"
 "Failed to delete %1 synonym group(s).","Impossible de supprimer le(s) groupe(s) de synonymes %1."
@@ -2603,13 +2598,13 @@ Failed,échec.
 "Failure #1","Échec #1"
 "Failure #2","Échec #2"
 "Failure History Lifetime","Durée de vie de l’historique des échecs"
-Failures,Echecs
+"Failures","Echecs"
 "Fast and easy check out","Commander plus vite et plus facilement"
 "Favicon Icon","Icône favicon"
-Fax,Fax
+"Fax","Fax"
 "Fax is too long.","Fax trop long."
 "Featured Platinum Partners","Notre sélection de partenaires Platinium"
-FedEx,FedEx
+"FedEx","FedEx"
 "FedEx 10kg Box","Colis 10kg FedEx"
 "FedEx 25kg Box","Colis 25kg FedEx"
 "FedEx Box","Colis FedEx"
@@ -2623,9 +2618,9 @@ FedEx,FedEx
 "Fee Amount","Montant des frais"
 "Fee Debit or Credit","Frais de débit ou de crédit"
 "Fee Reversal","Frais d’inversion"
-Feed,Flux
-Female,Femme
-Fetch,Rapporter
+"Feed","Flux"
+"Female","Femme"
+"Fetch","Rapporter"
 "Fetch Updates","Rapport mises à jour"
 "Fetch transaction details method does not exists in Payflow","Les rapports de détails de transactions n’existent pas dans Payflow"
 "Field ","Champ "
@@ -2639,7 +2634,7 @@ Fetch,Rapporter
 "Field is not complete","Champ non complet"
 "Field separator","Séparateur de champs"
 "Field title can't be empty","Le champ titre ne peut être vide"
-File,Fichier
+"File","Fichier"
 "File ""%1"" cannot be opened %2","Le fichier ""%1"" ne peut être ouvert %2"
 "File %1 does not exist","Le fichier %1 n’existe pas"
 "File %1 is not readable","Le fichier %1 n’est pas lisible"
@@ -2667,7 +2662,7 @@ File,Fichier
 "File is totally invalid. Please fix errors and re-upload file.","Fichier invalide. Veuillez corriger les erreurs et le recharger."
 "File is valid! To start import process press ""Import"" button","Le fichier est valide. Cliquez sur le bouton ""Importer"" pour démarrer le processus d’import"
 "File is valid, but import is not possible","Le fichier est valide, mais l’import est impossible"
-Filename,"Nom du fichier"
+"Filename","Nom du fichier"
 "File not found","Fichier non trouvé"
 "File not found: ""%1"".","Fichier non trouvé : ""%1""."
 "File not opened","Fichier non ouvert"
@@ -2678,12 +2673,12 @@ Filename,"Nom du fichier"
 "File was not uploaded.","Le fichier n’a pas été chargé."
 "File with an extension ""%value%"" is protected and cannot be uploaded","Le fichier avec l’extension ""%value%"" est protégé et ne peut pas être chargé"
 "File you are trying to upload exceeds maximum file size limit.","Le fichier que vous essayez de charger dépasse la taille maximale autorisée."
-Filter,Filtre
+"Filter","Filtre"
 "Filterable (no results)","Filtrable (pas de résultats)"
 "Filterable (with results)","Filtrable (avec résultats)"
 "Filter already exists in Criteria object: %1","Ce filtre existe déjà dans l’objet de critères : %1"
 "Filtering by this attribute will update the product image on catalog page","Filtrer par cet attribut mettra jour l’image du produit sur la page catalogue"
-Filters,Filtres
+"Filters","Filtres"
 "Final Price","Prix final"
 "Find Order By","Chercher une commande par"
 "Find Order By:","Chercher une commande par :"
@@ -2703,7 +2698,7 @@ Filters,Filtres
 "First-Class Package Service Hold For Pickup","First-Class Package Service Hold For Pickup"
 "First Day of Week","Premier jour de la semaine"
 "First Invoice Created Date","Date de création de la première facture"
-"First Name",Prénom
+"First Name","Prénom"
 "First Name is a required field.","Prénom est un champ obligatoire."
 "First Overnight","Le lendemain"
 "First billing date cannot be in the past","La date de première facturation ne peut être une date antérieure"
@@ -2711,15 +2706,15 @@ Filters,Filtres
 "First billing date is invalid","La date de première facturation est invalide"
 "First name is invalid","Prénom invalide"
 "First name is too long.","Prénom trop long."
-Fixed,Fixé
+"Fixed","Fixé"
 "Fixed Product Tax","Taxe fixe de produit"
 "Fixed Product Taxes","Taxes fixes de produit"
 "Fixed amount discount","Remise d’une valeur fixe"
 "Fixed amount discount for whole cart","Remise d’un montant fixe pour l’ensemble du panier"
-Fixer.io,Fixer.io
+"Fixer.io","Fixer.io"
 "Fixture String","Chaîne exemple"
 "Fixture base directory '%1' does not exist.","Le répertoire de base '%1' n’existe pas."
-Flat,Plat
+"Flat","Plat"
 "Flat-Rate Box","Boîte taux fixe"
 "Flat-Rate Envelope","Enveloppe taux fixe"
 "Flat Rate","Tarif unique"
@@ -2728,13 +2723,13 @@ Flat,Plat
 "Flush JavaScript/CSS Cache","Vider le cache JavaScript/CSS"
 "Flush Magento Cache","Vider le cache Magento"
 "Flush Static Files Cache","Vider le cache des fichiers statiques"
-Folder,Répertoire
+"Folder","Répertoire"
 "Following Error(s) has been occurred during importing process:","Une succession d’erreurs se sont produites pendant le processus d’importation :"
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  -->' '<a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}' '</a>","Cliquez sur ce lien pour vous désinscrire <!-- Sert au lien de désinscription --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>"
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Cliquez sur ce lien pour vous désinscrire <!-- Sert au lien de désinscription --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>"
-Font,"Police de caractères"
+"Font","Police de caractères"
 "Fonts Assets","Ressources polices"
-Footer,"Pied de page"
+"Footer","Pied de page"
 "Footer Template","Gabarit du pied de page"
 "For CMS page","Pour une page CMS"
 "For Type ""Local Server"" use relative path to Magento installation, e.g. var/export, var/import, var/export/some/dir","Pour le type ""serveur local"", utiliser un chemin par rapport à l’installation Magento."
@@ -2745,7 +2740,7 @@ Footer,"Pied de page"
 "For better results, add attributes and attribute values to your products.","Pour de meilleurs résultats, ajouter des attributs et des valeurs d’attribut à vos produits."
 "For category","Pour une catégorie"
 "Force Sign-In","Forcer l’enregistrement"
-Forced,Forcé
+"Forced","Forcé"
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Afin que les URLs soient générées correctement lors de l’exécution de cron, assurez-vous que les URL non sécurisée et sécurisée sont correctement renseignées."
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","Pour générer des URL correctes durant l’exécution du cron assurez-vous que les URL de base dans Web > URL sécurisée et non sécurisée sont explicitement définies. Toutes les heures sont en minutes."
 "For delivery questions.","Pour des questions concernant la livraison."
@@ -2768,7 +2763,7 @@ Forced,Forcé
 "Format for IDE '%1' is not supported","Le format pour l’EDI '%1' n’est pas pris en charge"
 "Format type is invalid","Type de format invalide"
 "Form code is not defined","Le code du formulaire n’est pas défini"
-Forms,Formulaires
+"Forms","Formulaires"
 "For product","Pour un produit"
 "For shipment with matching items","Pour les expéditions avec articles concordants"
 "For shipping to multiple family members and friends","Pour expédier à votre famille ou à vos amis"
@@ -2782,36 +2777,36 @@ Forms,Formulaires
 "Free Method","Mode gratuit"
 "Free Shipping","Livraison gratuite"
 "Free Shipping Amount Threshold","Montant minimum pour la livraison gratuite"
-Freight,Fret
+"Freight","Fret"
 "Freight worldwide","Frêt monde"
-Frequency,Fréquence
-From,De
-From:,"De :"
+"Frequency","Fréquence"
+"From","De"
+"From:","De :"
 "From Date","Date de début"
 "From Name","De la part de"
 "From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.","Depuis le tableau de bord 'Mon compte', vous pouvez avoir un aperçu de vos récentes activités et mettre à jour les informations de votre compte. Sélectionnez un lien ci-dessous pour voir ou modifier les informations."
 "Front-end development workflow","Automatisation de processus coté front office"
-Frontend,Frontend
+"Frontend","Frontend"
 "Frontend Development Workflow","Automatisation de processus coté front office"
 "Frontend Experience Settings","Paramètres d’expérience en frontend"
 "Frontend Properties","Propriétés du frontend"
 "Frontend label is not defined","Le libellé de front office n’est pas défini"
-Fulfilled,Rempli
+"Fulfilled","Rempli"
 "Full Page Cache","Full page cache"
 "Full page caching","Full page caching."
 "Full page caching.","Full page caching."
-Funding,Financement
-GB,Go
-GLOBAL,GLOBAL
-Gallery,Galerie
+"Funding","Financement"
+"GB","Go"
+"GLOBAL","GLOBAL"
+"Gallery","Galerie"
 "Gateway URL","URL de la passerelle"
 "Gateway XML URL","URL XML de passerelle"
 "Gateway actions are locked because the gateway cannot complete ' 'one or more of the transactions. ' 'Please log in to your Authorize.Net account to manually resolve the issue(s).","Les actions ont été verrouillées car elles n’ont pu être terminées. Veuillez vous connecter à votre compte authorize.Net pour les corriger manuellement."
 "Gateway error: %1","Erreur passerelle: %1"
 "Gateway rejected","Passerelle rejetée"
-Gender,Genre
+"Gender","Genre"
 "Gender is required.","Le genre est obligatoire."
-General,Général
+"General","Général"
 "General (Authorization)","Général (autorisation)"
 "General (Dividend)","Général (dividendes)"
 "General (Funds Transfer from PayPal Account to Another)","Général (transfert de fonds de compte PayPal à un autre)"
@@ -2840,7 +2835,7 @@ General,Général
 "General Settings","Paramètres généraux"
 "General Subscription","Je m'abonne"
 "General Withdrawal from PayPal Account","Retrait général de compte PayPal"
-Generate,Générer
+"Generate","Générer"
 "Generate Human-Friendly Customer ID","Générer un ID client facile à lire"
 "Generate Products","Générer les produits"
 "Generate Schedules Every","Générer les tâches programmées toutes les"
@@ -2857,7 +2852,7 @@ Generate,Générer
 "Get Video Information","Obtenir des informations sur la vidéo"
 "Get a Quote","Obtenir une estimation"
 "Get shipping methods and rates","Récupérer les modes de livraison et les taux"
-Gift,Cadeau
+"Gift","Cadeau"
 "Gift Certificate Payment: purchase of Gift Certificate","Paiement par chèque cadeau : achat de chèque cadeau"
 "Gift Certificate Redemption","Rachat de chèque cadeau"
 "Gift Message","Message cadeau"
@@ -2878,8 +2873,8 @@ Gift,Cadeau
 "Gift Options for the Entire Order","Options cadeau pour toute la commande"
 "Gift Options for this address.","Options cadeau pour cette adresse."
 "Gift options","Options cadeau"
-Girth,Circonférence
-Global,Global
+"Girth","Circonférence"
+"Global","Global"
 "Global Attribute","Attribut global"
 "Global Express Guaranteed (GXG)","Global Express Guaranteed (GXG)"
 "Global Express Guaranteed Document","Global Express Guaranteed Document"
@@ -2913,15 +2908,15 @@ Global,Global
 "Grand Total Excl. Tax","Total HT"
 "Grand Total Incl. Tax","Total TTC"
 "Grand Total to be Charged","Total à facturer"
-Grid,Grille
+"Grid","Grille"
 "Grid (default) / List","Grille (par défaut) / Liste"
 "Grid Only","Grille uniquement"
 "Grid Settings","Paramètres de la grille"
 "Gross Amount","Montant brut"
-Ground,Sol
+"Ground","Sol"
 "Ground Commercial","Raison commerciale"
 "Ground Residential","Ground residential"
-Group,Groupe
+"Group","Groupe"
 "Group Information","Informations du groupe"
 "Group Label","Libellé du groupe"
 "Group Name","Nom du groupe"
@@ -2932,13 +2927,13 @@ Group,Groupe
 "Group for Valid VAT ID - Domestic","Groupe pour un numéro de TVA valide - Domestique"
 "Group for Valid VAT ID - Intra-Union","Groupe pour un numéro de TVA valide - Intra-Union"
 "Group price must be a number greater than 0.","Le prix de groupe doit être un nombre supérieur à 0."
-Groups,Groupes
+"Groups","Groupes"
 "Group was removed","Groupe supprimé"
 "Group with id ""%1"" does not exist.","Le groupe id ""%1"" n’existe pas."
-Guest,Invité
+"Guest","Invité"
 "Guest checkout is disabled.","Le passage de commande invité est désactivé."
 "Guest checkout will only work with shareable.","Le passage de commande en tant qu’invité ne fonctionnera qu’avec les partageables."
-HTML,HTML
+"HTML","HTML"
 "HTML Head","En-tête HTML"
 "HTML ID or class will not have effect, if HTML tag is not specified.","Un ID ou une classe HTML n’ont aucun effet, si le tag HTML n’est pas défini."
 "HTML tags are not allowed","Les balises HTML ne sont pas autorisées"
@@ -2947,43 +2942,43 @@ HTML,HTML
 "HTTPS (SSL)","HTTPS (SSL)"
 "Handling Applied","Frais de dossier appliqués"
 "Handling Fee","Frais de dossier"
-Header,En-tête
+"Header","En-tête"
 "Header (center)","Header (centre)"
 "Header Background Color","Couleur d’arrière plan de l’entête"
 "Header Border Color","Couleur de la bordure de l’entête"
 "Header Image URL","URL de l’image d’entête"
 "Header Template","Gabarit de l’en-tête"
 "Header column names already set","L’en-tête des noms de colonnes a déjà été défini"
-Height,Hauteur
+"Height","Hauteur"
 "Height, width and length should be equal or greater than %1","Hauteur, largeur et longueur devrait être supérieurs ou égaux à %1"
-"Hello,",bonjour
+"Hello,","bonjour"
 "Hello, %1!","Bonjour, %1 !"
 "Hello World!","Hello World!"
-Help,Aide
+"Help","Aide"
 "Help Us Keep Magento Healthy","Aidez-nous à améliorer Magento"
 "Help Us Keep Magento Healthy - Report All Bugs","Aidez-nous à améliorer Magento - Signalez tous les bugs"
 "Help Us to Keep Magento Healthy","Aidez-nous à améliorer Magento"
-Helper,Helper
+"Helper","Helper"
 "Helper arguments should not be used in custom layout updates.","Les arguments du Helper ne peuvent être utilisées dans les custom layout updates."
 "Helper instance cannot be redefined.","L’instance du Helper ne peut être redéfinie."
 "Helper instance is not defined yet.","Instance du helper non définie."
 "Here are the products you're about to create.","Voici les produits que vous êtes sur le point de créer."
 "Here are the products you\'re about to create.","Voici les produits que vous êtes sur le point de créer."
-Hidden,Caché
+"Hidden","Caché"
 "Hidden Virtual PayPal Debit Card Transaction","Transaction virtuelle PayPal de débit de carte de paiement"
 "Hide Customer IP","Masquer l’adresse IP du client"
 "Hide from Product Page","Cacher sur la page du produit"
-History,Historique
+"History","Historique"
 "History Cleanup Every","Nettoyer l’historique toutes les"
-Hits,Vues
-Hold,Bloquer
+"Hits","Vues"
+"Hold","Bloquer"
 "Hold for Dispute Investigation","Bloquer pendant l’enquête de litige"
-Home,Accueil
+"Home","Accueil"
 "Home Delivery","Livraison à domicile"
 "Home Page","Page d’accueil"
-Host,Serveur
-Hour,Heure
-Hourly,"Toutes les heures"
+"Host","Serveur"
+"Hour","Heure"
+"Hourly","Toutes les heures"
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Heures d’ouverture :<br><span class=""no-link"">%store_hours</span>."
 "How do you rate this product?","Quelle note donneriez-vous à ce produit ?"
 "How many links to display at once.","Nombre de liens à afficher à la fois."
@@ -2991,7 +2986,7 @@ Hourly,"Toutes les heures"
 "Hub ID","Identifiant de hub"
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Nous ne sommes pas en mesure de compléter votre transaction. Veuillez nous contacter afin que nous puissions vous aider."
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Nous ne sommes pas en mesure de traiter votre paiement. Veuillez essayer une autre méthode de paiement ou contactez-nous afin que nous puissions vous aider."
-ID,ID
+"ID","ID"
 "ID: %1","ID: %1"
 "ID Path","ID chemin"
 "ID has already been taken.","ID déjà donné."
@@ -3009,7 +3004,7 @@ ID,ID
 "IPs access list separated with \',\' that can purge Varnish configuration for config file generation. If field is empty default value localhost will be saved.","Adresses IP séparées par des \',\' que peut purger Varnish pour la génération du fichier de configuration. Si le champ est vide la valeur par défaut localhost sera utilisée."
 "I\'m sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Nous ne sommes pas en mesure de compléter votre transaction. Veuillez nous contacter afin que nous puissions vous aider."
 "I\'m sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Nous ne sommes pas en mesure de traiter votre paiement. Veuillez essayer une autre méthode de paiement ou contactez-nous afin que nous puissions vous aider."
-Identifier,Identifiant
+"Identifier","Identifiant"
 "Identifying Fields required","Les champs sont obligatoires"
 "Identity link URL","URL du lien d’identité"
 "Id field of product link is required","Le champ ID pour lier le produit est obligatoire"
@@ -3607,13 +3602,12 @@ Magento,Magento
 "Magento Connect","Magento Connect"
 "Magento Marketplace","Marketplace Magento"
 "Magento Web API","API web Magento"
-Magento_Ui/js/dynamic-rows/record,Magento_Ui/js/dynamic-rows/record
 "Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento possède un riche écosystème de partenaires technologiques afin d’aider les marchands et les marques à offrir les meilleurs expériences client possibles. Ils sont reconnus comme experts dans les domaine du eCommerce, recherche, email marketing, paiements, taxes, fraudes, optimisations et analyses, réalisations et plus encore. Visitez notre annuaire pour voir tous les partenaires de confiance."
 "Magento is not yet installed","Magento n’est pas installé"
 "Magento root directory","Répertoire racine de Magento"
 "Magento ver. %1","Magento ver. %1"
 "Mail Sending Settings","Paramètres d’envoi des emails"
-Main,Principale
+"Main","Principale"
 "Maintenance Mode","Mode maintenance"
 "Maintenance mode","Mode maintenance"
 "Major System Messages","Messages système majeurs"
@@ -3629,8 +3623,8 @@ Main,Principale
 "Make sure the To Date is later than or the same as the From Date.","Assurez-vous que la date de fin soit postérieure ou identique à la date de début."
 "Make sure your file isn't more than %1M.","Assurez-vous que votre fichier ne dépasse pas %1Mo."
 "Make sure your file isn\'t more than %1M.","Assurez-vous que votre fichier ne dépasse pas %1Mo."
-Male,Homme
-Manage,Gérer
+"Male","Homme"
+"Manage","Gérer"
 "Manage Addresses","Gérer les adresses"
 "Manage Attribute Sets","Gérer les jeux d’attributs"
 "Manage Catalog Categories","Gérer les catégories du catalogue"
@@ -3655,10 +3649,10 @@ Manage,Gérer
 "Manage Titles (Size, Color, etc.)","Gérer les titres (taille, couleur, etc.)"
 "Manage Widget Instances","Gérer les instances de widgets"
 "Manage carts","Gérer les paniers"
-Manual,Manuel
-Manually,Manuellement
+"Manual","Manuel"
+"Manually","Manuellement"
 "Mark as Read","Marquer comme lu"
-Marketing,Marketing
+"Marketing","Marketing"
 "Mask for Meta Description","Masque pour meta description"
 "Mask for Meta Keywords","Paramètre Meta Keywords"
 "Mask for Meta Title","Paramètre Meta Title"
@@ -3720,11 +3714,11 @@ Marketing,Marketing
 "Media Mail","Courrier média"
 "Media Storage","Stockage des médias"
 "Medical express","Médical express"
-Medium,Moyen
+"Medium","Moyen"
 "Medium Express Box","Boite Express Medium"
 "Memo Total","Total de l’avoir"
-Menu,Menu
-Merchandise,Marchandise
+"Menu","Menu"
+"Merchandise","Marchandise"
 "Merchant's Email","Email du marchand"
 "Merchant Account","Compte marchand"
 "Merchant Account ID","ID Compte marchand"
@@ -3745,9 +3739,9 @@ Merchandise,Marchandise
 "Merge JavaScript Files","Fusionner les fichiers JavaScript"
 "Merge conflict with existing synonym group(s): %1","Fusionner les conflits existants dans le(s) groupe(s) de synonymes: %1"
 "Merge existing synonyms","Fusionner les synonymes existants"
-Message,Message
-Message.,"Message :"
-Message:,"Message :"
+"Message","Message"
+"Message.","Message :"
+"Message:","Message :"
 "Message from %customer_name:","Message de la part de %customer_name :"
 "Message from %sender_name:","Message de la part de %sender_name :"
 "Message length must not exceed %1 symbols","La longueur du message ne peut pas dépasser %1 caractères"
@@ -3773,6 +3767,7 @@ Message:,"Message :"
 "Minimal Query Length","Longueur minimale de requête"
 "Minimum Advertised Price","Prix ​​minimum affiché"
 "Minimum Amount","Montant minimum"
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Au moins %1 caractères, espaces ignorés au début et à la fin."
 "Minimum Order Amount","Montant de commande minimum"
 "Minimum Order Total","Montant total minimum de commande"
 "Minimum Package Weight (Please consult your shipping carrier for minimum supported shipping weight)","Poids minimum du colis (SVP, consultez votre transporteur)"
@@ -3842,7 +3837,7 @@ Monthly,Mensuel
 "My Wish List","Ma liste d’envies"
 "My Wish List Link","Lien vers ma liste d’envies"
 "My billing and shipping address are the same","Mes adresses de facturation et d’expédition sont les mêmes"
-N/A,N/A
+"N/A","N/A"
 "N/A. Address not checked, or acquirer had no response. Service not available","N/A. L’adresse n’a pas été vérifiée, ou l’acquéreur n’a pas donné de réponse. Service non disponible"
 "N/A. Global Unavailable","N/A. Global indisponible"
 "N/A. International Unavailable","N/A. International indisponible"
